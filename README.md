@@ -1,7 +1,7 @@
 # Simulating a LoRaWAN Style Mesh Network Using Containers
 
 ## Overview
-This project contains multiple LoRAWAN implementations and analysis tools. It includes Docker setups, Minikube configurations, and scripts to start different versions of the LoRAWAN network.
+This project contains multiple versions LoRAWAN implementations and analysis tools. It includes Docker setups, Minikube configurations, and scripts to start different versions of the LoRAWAN network.
 
 ## Prerequisites
 - Docker and Docker Compose installed
