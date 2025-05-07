@@ -12,7 +12,8 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 ## How to Run
 
 ### Starting Different Versions
-- Use the scripts `start_all_versions.sh` or `start_two_versions.sh` in the root directory to start multiple versions of the LoRAWAN network.
+- Use the scripts `start_all_versions.sh` (Recommended) <br>
+- `start_two_versions.sh` in the root directory to start multiple versions of the LoRAWAN network.
 - 
 ### Using Terminal
 
@@ -28,10 +29,9 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - Python scripts `AllComparision.py` is run from within shart_*_versions script for analysis.
 
 ## Comparision Plots and Visual analysis
-- Once start_*_version is ran, It automatically fetches the summay of metrics and stores in the root directry and it can be found under comparision_plots dir.
-
-- Additionally for each version, All the plots related to metrics is stored under Report*_LoRAWAN_* directory
-- Summary text file is stored in Summary_LoRAWAN_*
+- Once `start_*_version.sh` is ran, It automatically fetches the summay of metrics and stores in the root directry and it can be found under `comparision_plots` dir.
+- Additionally for each version, All the plots related to metrics is stored under `Report*_LoRAWAN_*` directory
+- Summary text file is stored in `Summary_LoRAWAN_*.txt `
 
 ##
 
