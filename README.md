@@ -16,10 +16,10 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - 
 ### Using Terminal
 
-1. For running two main version of LoRAWAN Implementation (Docker and minikube)
+1. For running two main version of LoRAWAN Implementation (Docker and minikube)<br>
 `chmod +x start_two_versions.sh`
-`./start_two_version.sh <br>`
-2. For running all 4 version of LoRAWAN Implementation
+`./start_two_version.sh` <br>
+2. For running all 4 version of LoRAWAN Implementation <br>
 `chmod +x start_all_versions.sh`
 `./start_all_versions.sh`
 
