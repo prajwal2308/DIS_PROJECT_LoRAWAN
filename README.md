@@ -13,6 +13,11 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - Script has Deeper cleanup of Docker Images, Containers and Volumes.<br>
 - Necessary backup is required if there are other containers.
 
+## Run time
+- Run time depends on the choice of script version
+- `./start_two_versions.sh` (takes approx: 4-8 mins)
+- `./start_all_versions.sh` (takes approx 8-15 mins)
+
 ## How to Run
 
 ### Starting Different Versions in Terminal 
