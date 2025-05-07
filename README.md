@@ -10,7 +10,7 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - Bash shell to run shell scripts
 
 ## Warnings
-- Script has Deeper cleanup of Docker Images, Containers and Volumes.<br>
+- Script has Deeper cleanup of Docker Images, Containers, Volumes and Networks used within project <br>
 - Necessary backup is required if there are other containers.
 
 ## Run time
