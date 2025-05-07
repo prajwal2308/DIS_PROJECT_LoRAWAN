@@ -9,6 +9,10 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - Python
 - Bash shell to run shell scripts
 
+## Caution
+- Script has Deeper cleanup of Images, Containers and Volumes.<br>
+- Necessary backup is required if there are other containers.
+
 ## How to Run
 
 ### Starting Different Versions in Terminal 
