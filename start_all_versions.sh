@@ -139,17 +139,17 @@ collect_data() {
     
     
     # Copy data files from each version
-    cp LoRAWAN_Docker/mesh_analysis/data/*.txt V1LoRAWAN_DockerV1.txt
-    cp LoRAWAN_Subnet/mesh_analysis/data/*.txt V2LoRAWAN_SubnetV2.txt
-    cp LoRAWAN_MutliSubnet/mesh_analysis/data/*.txt V3LoRAWAN_MutliSubnetV3.txt
-    cp LoRAWAN_MiniKube/mesh_analysis/data/*.txt V4LoRAWAN_minikubeV4.txt
+    cp LoRAWAN_Docker/mesh_analysis/data/*.txt Summary_LoRAWAN_DockerV1.txt
+    cp LoRAWAN_Subnet/mesh_analysis/data/*.txt Summary_LoRAWAN_SubnetV2.txt
+    cp LoRAWAN_MutliSubnet/mesh_analysis/data/*.txt Summary_LoRAWAN_MutliSubnetV3.txt
+    cp LoRAWAN_MiniKube/mesh_analysis/data/*.txt Summary_LoRAWAN_minikubeV4.txt
 
-    mkdir -p V1_LoRAWAN_Docker V2_LoRAWAN_Subnet V3_LoRAWAN_MutliSubnet V4_LoRAWAN_minikube
+    mkdir -p Report_LoRAWAN_Docker Report_LoRAWAN_Subnet Report_LoRAWAN_MutliSubnet Report_LoRAWAN_minikube
 
-    cp LoRAWAN_Docker/mesh_analysis/plots/*.png V1_LoRAWAN_Docker/
-    cp LoRAWAN_Subnet/mesh_analysis/plots/*.png V2_LoRAWAN_Subnet/
-    cp LoRAWAN_MutliSubnet/mesh_analysis/plots/*.png V3_LoRAWAN_MutliSubnet/
-    cp LoRAWAN_minikube/mesh_analysis/plots/*.png V4_LoRAWAN_minikube/
+    cp LoRAWAN_Docker/mesh_analysis/plots/*.png Report_LoRAWAN_Docker/
+    cp LoRAWAN_Subnet/mesh_analysis/plots/*.png Report_LoRAWAN_Subnet/
+    cp LoRAWAN_MutliSubnet/mesh_analysis/plots/*.png Report_LoRAWAN_MutliSubnet/
+    cp LoRAWAN_minikube/mesh_analysis/plots/*.png Report_LoRAWAN_minikube/
 }
 
 cleanup_docker() {
