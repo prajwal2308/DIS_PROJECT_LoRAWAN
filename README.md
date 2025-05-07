@@ -8,6 +8,7 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 - Minikube installed 
 - Python
 - Bash shell to run shell scripts
+- Virtual Environment (venv) for python dependencies. Created within script.sh files
 
 ## Warnings
 - Script has Deeper cleanup of Docker Images, Containers, Volumes and Networks used within project <br>
