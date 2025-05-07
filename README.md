@@ -18,11 +18,11 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 ### Using Terminal
 
 1. For running two main version of LoRAWAN Implementation (Docker and minikube)<br>
-`chmod +x start_two_versions.sh`
+`chmod +x start_two_versions.sh` <br>
 `./start_two_version.sh` <br>
 2. For running all 4 version of LoRAWAN Implementation <br>
-`chmod +x start_all_versions.sh`
-`./start_all_versions.sh`
+`chmod +x start_all_versions.sh` <br>
+`./start_all_versions.sh` 
 
 ### Running Python Scripts
 - Creating of Virtual Environment is needed for plot creations and graph (start_*_versions does for you)<br>
