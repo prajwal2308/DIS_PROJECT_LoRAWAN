@@ -12,9 +12,9 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 ## How to Run
 
 ### Starting Different Versions
-- Use the scripts `start_all_versions.sh` (Recommended) <br>
-- `start_two_versions.sh` in the root directory to start multiple versions of the LoRAWAN network.
-- 
+- Use the scripts `start_two_versions.sh` (Recommended) <br>
+- `start_all_versions.sh` <br>
+-  In the root directory terminal to start multiple versions of the LoRAWAN network.
 ### Using Terminal
 
 1. For running two main version of LoRAWAN Implementation (Docker and minikube)<br>
