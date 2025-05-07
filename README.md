@@ -51,3 +51,4 @@ There are multiple version of scripts. Use of first version is recommended.<br>
 ## Additional Notes
 - Ensure you have the necessary permissions to run Docker and Kubernetes commands.
 - Modify configuration files as needed for your environment.
+- Tested for upto 500+ nodes needed. To test that, run `./start.sh` script inside `LoRAWAN_minikube` dir. (need to configure `minikube start --cpus=7 --memory=14000 -extra-config=kubelet.max-pods=600` inside `./start.sh`.
