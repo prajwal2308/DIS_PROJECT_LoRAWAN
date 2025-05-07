@@ -17,12 +17,13 @@ There are multiple version of script use of first version is recommended.<br>
 
 1. For running only two version of LoRAWAN Implementation using Docker and minikube.  (Recommended) <br>
 `chmod +x start_two_versions.sh` <br>
-`./start_two_version.sh` <br>
+`./start_two_versions.sh` <br>
 2. For running all four version of LoRAWAN Implementation use <br>
 `chmod +x start_all_versions.sh` <br>
 `./start_all_versions.sh` 
 
-### Running Python Scripts
+### Running Python Scripts 
+### (Not required to run if ./start_*_versions.sh is ran)
 - Creating of Virtual Environment is needed for plot creations and graph (start_*_versions does for you)<br>
 - Python scripts `AllComparision.py` is run from within shart_*_versions script for analysis.
 
