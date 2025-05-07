@@ -15,10 +15,10 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 
 There are multiple version of script use of first version is recommended.<br>
 
-1. For running two main version of LoRAWAN Implementation using Docker and minikube.  (Recommended) <br>
+1. For running only two version of LoRAWAN Implementation using Docker and minikube.  (Recommended) <br>
 `chmod +x start_two_versions.sh` <br>
 `./start_two_version.sh` <br>
-2. For running all 4 version of LoRAWAN Implementation <br>
+2. For running all four version of LoRAWAN Implementation use <br>
 `chmod +x start_all_versions.sh` <br>
 `./start_all_versions.sh` 
 
