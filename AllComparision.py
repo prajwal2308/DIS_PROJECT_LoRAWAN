@@ -13,7 +13,7 @@ sns.set_theme(style="whitegrid")
 
 
 # Dynamically detect version files and build VERSIONS dictionary
-version_files = glob.glob("Summary_*LoRAWAN*.txt")
+version_files = glob.glob("Summary_LoRAWAN*.txt")
 VERSIONS = {}
 for vf in version_files:
     # Extract version name from filename, e.g. V1LoRAWAN_DockerV1.txt -> Docker V1
