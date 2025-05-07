@@ -17,15 +17,15 @@ This project contains multiple LoRAWAN implementations and analysis tools. It in
 ### Using Terminal
 
 1. For running two main version of LoRAWAN Implementation (Docker and minikube)
-chmod +x start_two_versions.sh
-./start_two_version.sh <br>
+`chmod +x start_two_versions.sh`
+`./start_two_version.sh <br>`
 2. For running all 4 version of LoRAWAN Implementation
-chmod +x start_all_versions.sh
-./start_all_versions.sh
+`chmod +x start_all_versions.sh`
+`./start_all_versions.sh`
 
 ### Running Python Scripts
 - Creating of Virtual Environment is needed for plot creations and graph (start_*_versions does for you)<br>
-- Python scripts AllComparision.py is run from within shart_*_versions script for analysis.
+- Python scripts `AllComparision.py` is run from within shart_*_versions script for analysis.
 
 ## Comparision Plots and Visual analysis
 - Once start_*_version is ran, It automatically fetches the summay of metrics and stores in the root directry and it can be found under comparision_plots dir.
